@@ -1,0 +1,22 @@
+1. There are less people living in mining towns in 2016 then there were
+   living in 2011.
+             Capel:          6271
+             Collie:         6225
+             Dampier:        6713
+
+2. There is a higher ratio of men to women living in northern WA than in
+   Perth in 2016.
+         Northern WA:
+             Exmouth:        6707
+             Broome:         6725
+             Geraldton:      6530
+         Perth city suburbs:
+             Stirling:       6021
+             Cockburn:       6164
+             Midland:        6056
+
+3. The rate of seniors living in South West Australia in 2016 compared to 2011 
+   (ages 65+) will be higher than the total increase of WA
+             Margaret River: 6285
+             Busselton:      6280
+             Albany:         6330

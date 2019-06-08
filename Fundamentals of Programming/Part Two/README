@@ -1,0 +1,38 @@
+## Synopsis
+
+Assignment: Task Two for Fundamentals of Programming COMP1005/5005
+
+## Contents
+
+README         - readme file for the TaskTwo directory
+sweep.sh       - A bash script that performs a parameter sweep for the 
+                 dosagebase.py and checkResults.py files. It takes in two 
+                 parametres, the start dosage and the end dosage. It 
+                 automatically does one step intervals and steps up the dosage
+                 by 25. It runs two sweeps, one for the PolyJuice drug and one
+                 for the NiLess drug. At the end of the sweeps it runs the 
+                 checkResults.py and prints to the screen the successful trials
+                 All of the results are written to a new folder containing the 
+                 graphs, the generated results files for the two drugs and
+                 copies of the sweep.sh, dosagebase.py and checkresults.py 
+                 programs. The output of dosagebase.py is writted to the results
+                 files and then automatically read by checkResults.py to output
+                 them to the screen in an efficient way.
+dosagebase.py  - This is a file to see if the given parameters for a description
+                 of a drug has an effective result. The file takes in seven
+                 command line parameters from the sweep.sh file, and runs a
+                 sumulation of the drugs effect over 200 hours. If the 
+                 simulation is deemed successful it will print the simulation 
+                 details and graph them to a file with the format 'dosage_I' + 
+                 interval + '_D' + dosage + '.png. Eg, 'dosage_I1_D100000.png'.
+checkResults.py- This file will read the given results of the NiLess or 
+                 PolyJuice drugs using regex and output to the screen just the 
+                 effective time, the dosage and the interval.
+
+## Dependencies 
+
+none
+
+## Version information
+
+<28/05/2018> - last updated version of the TaskTwo files

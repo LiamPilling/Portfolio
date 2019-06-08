@@ -1,0 +1,50 @@
+## Synopsis
+
+Assignment: Task One for Fundamentals of Programming COMP1005/5005
+
+## Contents
+
+README         - readme file for the TaskOne directory
+Hypothesis.txt - This is a file containing all of the hypothesis that I have
+                 made for Task One
+2011Census_B01_WA_POA_short.csv - This is a csv file used for all the programs
+                 listed below. It contains all of the population data for WA 
+                 listed by postcode. It contains data for populations of men and
+                 women, ages and more for the year 2011. This file was taken out
+                 of the datapack from https://datapacks.censusdata.abs.gov.au/da
+                 tapacks.
+2016Census_G01_WA_POA.csv - This is a csv file used for all the programs
+                 listed below. It contains all of the population data for WA 
+                 listed by postcode. It contains data for populations of men and
+                 women, ages and more for the year 2016. This file was taken out
+                 of the datapack from https://datapacks.censusdata.abs.gov.au/da
+                 tapacks.
+hypoOne.py     - This file is a program to confirm the first hypothesis stated
+                 in Hypothesis.txt. It takes the data from the two datasets
+                 above and compares the populations living in mining towns from
+                 2011 to 2016. It outputs the results of the data to the
+                 terminal and generates the file 'HypoOneGraph.png', which is a
+                 graph of the populations.
+hypoTwo.py     - This file is a program to confirm the second hypothesis stated
+                 in Hypothesis.txt. It takes the data from the 2016 dataset and 
+                 uses it to compare populations of men and women in different 
+                 areas of WA. It outputs the results of the data to the terminal
+                 and generates the files 'HypoTwoPopGraph.png', which is a grap 
+                 of the populations of men and women, and 
+                 'HypoTwoRatioGraph.png', which is a graph of the ratios of men
+                 to women.
+hypoThree.py   - This file is a program to confirm the third hypothesis stated
+                 in Hypothesis.txt. It takes the data from the two datasets and
+                 uses it to compare increase in growth of senoirs in south west 
+                 WA comprared to the growth of all of WA. It displays the 
+                 results to the terminal and generates the file 
+                 'HypoThreeGraph.png', which is a graph of the populations of 
+                 seniors in south west WA in 2011 and in 2016.
+
+## Dependencies 
+
+none
+
+## Version information
+
+<28/05/2018> - last updated version of the TaskOne files
